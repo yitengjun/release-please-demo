@@ -1,0 +1,22 @@
+{
+  "name": "ytng-please-release-demo",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/ytng-please-release-demo.umd.cjs",
+  "module": "./dist/ytng-please-release-demo.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ytng-please-release-demo.js",
+      "require": "./dist/ytng-please-release-demo.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
