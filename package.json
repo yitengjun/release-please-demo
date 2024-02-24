@@ -1,7 +1,9 @@
 {
   "name": "ytng-please-release-demo",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/ytng-please-release-demo.umd.cjs",
   "module": "./dist/ytng-please-release-demo.js",
   "exports": {
@@ -18,5 +20,6 @@
   "devDependencies": {
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
-  }
+  },
+  "version": "0.1.0"
 }
