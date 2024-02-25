@@ -27,6 +27,10 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
+      - name: Install Node.js dependencies
+        run: |
+          npm i -g pnpm
+          pnpm i
       - run: npm ci
         if: ${{ steps.release.outputs.release_created }}
       - run: npm publish
