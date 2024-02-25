@@ -13,6 +13,28 @@
 * Update README.md ([2ed6b88](https://github.com/yitengjun/release-please-demo/commit/2ed6b882fb386b2dfa50e5f5c17779346df0bbbe))
 
 
+### Bug Fixes
+
+* Update release-please.yml ([5d119a1](https://github.com/yitengjun/release-please-demo/commit/5d119a1cbf00d761dfe27a70aee316dee1f2be41))
+
+
+### Miscellaneous Chores
+
+* release 0.1.0 ([4bcd2ea](https://github.com/yitengjun/release-please-demo/commit/4bcd2ea49a1ce27f7f0cf4fbb16cfcbbaed0276e))
+
+## [0.1.0](https://github.com/yitengjun/release-please-demo/compare/v0.1.0...v0.1.0) (2024-02-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update README.md
+
+### Features
+
+* add readme ([05f6732](https://github.com/yitengjun/release-please-demo/commit/05f6732713860a5613ef826512f44ff1895626af))
+* Update README.md ([2ed6b88](https://github.com/yitengjun/release-please-demo/commit/2ed6b882fb386b2dfa50e5f5c17779346df0bbbe))
+
+
 ### Miscellaneous Chores
 
 * release 0.1.0 ([4bcd2ea](https://github.com/yitengjun/release-please-demo/commit/4bcd2ea49a1ce27f7f0cf4fbb16cfcbbaed0276e))
