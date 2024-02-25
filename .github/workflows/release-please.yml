@@ -17,8 +17,6 @@ jobs:
         id: release
         with:
           release-type: node
-          bump-minor-pre-major: true
-          bump-patch-for-minor-pre-major: true
       # The logic below handles the npm publication:
       - uses: actions/checkout@v4
         # these if statements ensure that a publication only occurs when
@@ -29,6 +27,8 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v2.2.2
       - run: pnpm i --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
       - run: pnpm publish
