@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.0](https://github.com/yitengjun/release-please-demo/compare/v0.1.0...v0.1.0) (2024-02-25)
+
+
+### Features
+
+* add readme ([05f6732](https://github.com/yitengjun/release-please-demo/commit/05f6732713860a5613ef826512f44ff1895626af))
+
+
+### Miscellaneous Chores
+
+* release 0.1.0 ([4bcd2ea](https://github.com/yitengjun/release-please-demo/commit/4bcd2ea49a1ce27f7f0cf4fbb16cfcbbaed0276e))
+
 ## 0.1.0 (2024-02-24)
 
 
