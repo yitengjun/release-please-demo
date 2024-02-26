@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/yitengjun/release-please-demo/compare/v0.1.4...v0.1.5) (2024-02-26)
+
+
+### Bug Fixes
+
+* Update release-please.yml ([deefe8b](https://github.com/yitengjun/release-please-demo/commit/deefe8b51e64e8af14f0376dbd6a1c10e0c0764b))
+
 ## [0.1.4](https://github.com/yitengjun/release-please-demo/compare/v0.1.3...v0.1.4) (2024-02-26)
 
 
